@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek22", "Ornek22\Ornek22.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek23", "Ornek23\Ornek23.csproj", "{AF643FEC-3CDD-4D74-BECD-5586945F138B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek24", "Ornek24\Ornek24.csproj", "{86483C8D-3850-4966-A35A-55C2A8D818BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek25", "Ornek25\Ornek25.csproj", "{8CE07037-4547-475D-A17C-2FB24EB7CBB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +151,14 @@ Global
 		{AF643FEC-3CDD-4D74-BECD-5586945F138B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF643FEC-3CDD-4D74-BECD-5586945F138B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF643FEC-3CDD-4D74-BECD-5586945F138B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86483C8D-3850-4966-A35A-55C2A8D818BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86483C8D-3850-4966-A35A-55C2A8D818BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86483C8D-3850-4966-A35A-55C2A8D818BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86483C8D-3850-4966-A35A-55C2A8D818BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE07037-4547-475D-A17C-2FB24EB7CBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE07037-4547-475D-A17C-2FB24EB7CBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE07037-4547-475D-A17C-2FB24EB7CBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE07037-4547-475D-A17C-2FB24EB7CBB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
