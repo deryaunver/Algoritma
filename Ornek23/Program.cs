@@ -16,8 +16,8 @@ namespace Ornek23
             double pi = 3.14;
             double alan= yaricap * yaricap * pi;
             double cevre = 2 * yaricap * pi;
-            Console.WriteLine($"Cevre={cevre}");
-            Console.WriteLine($"Alan={alan}");
+            Console.WriteLine($"CEVRE={cevre}");
+            Console.WriteLine($"ALAN={alan}");
 
 
             Console.ReadLine();
