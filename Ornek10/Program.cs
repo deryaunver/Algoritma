@@ -73,7 +73,7 @@ namespace Ornek10
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine(
-                        "\t Seçimin seni tehlikeli bir yola sürükledi!\t \n\tIzdırap verenlerin yuvasının bulunduğu yerdesin..\n \tBurdan kurtulabilmek için en doğru olanı yap !!!");
+                        "\t Seçimin seni tehlikeli bir yola sürükledi !\t \n\tIzdırap verenlerin yuvasının bulunduğu yerdesin..\n \tBurdan kurtulabilmek için en doğru olanı yap !!!");
                     Console.ForegroundColor = ConsoleColor.Blue;
                     Console.WriteLine("----------------------------------------------------------------");
                     Console.WriteLine(
