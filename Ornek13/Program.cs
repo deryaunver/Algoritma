@@ -21,7 +21,7 @@ namespace Ornek13
         }
         static void Main(string[] args)
         {
-            Console.Title = "ENUM= NUMARALANDIRMA + SABİT";
+            Console.Title = " ENUM= NUMARALANDIRMA + SABİT ";
             Gunler gun = Gunler.cumartesi;
             switch (gun)
             {
