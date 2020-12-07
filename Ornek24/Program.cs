@@ -10,7 +10,7 @@ namespace Ornek24
     {
         static void Main(string[] args)
         {
-            Console.Title = "Koni Hacmi Hesapla".ToUpper();
+            Console.Title = " Koni Hacmi Hesapla ".ToUpper();
             Console.WriteLine("yarıçap belirleyiniz:");
             int yaricap = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("yükseklik belirleyiniz:");
