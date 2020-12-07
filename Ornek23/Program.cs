@@ -10,7 +10,7 @@ namespace Ornek23
     {
         static void Main(string[] args)
         {
-            Console.Title = "Daire alan-cevre hesabı ".ToUpper();
+            Console.Title = " Daire alan-cevre hesabı ".ToUpper();
             Console.WriteLine("Dairenin yarıçapını belirleyiniz:".ToUpper());
             double yaricap = Convert.ToDouble(Console.ReadLine());
             double pi = 3.14;
