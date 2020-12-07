@@ -29,7 +29,7 @@ namespace Ornek11
             string islem = "";
             if (secim=='1')
             {
-                islem = "TOPLAMA;";
+                islem = "TOPLAMA";
                 sonuc = sayi1 + sayi2;
             }
             else if(secim=='2')
