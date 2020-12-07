@@ -11,7 +11,7 @@ namespace Ornek25
         static void Main(string[] args)
         {
             //1 inç 2.54 cm
-            Console.Title = "İnç uzunluğu santimetre uzunluğuna cevirme".ToUpper();
+            Console.Title = " İnç uzunluğu santimetre uzunluğuna cevirme ".ToUpper();
             Console.WriteLine("İnç türünden uzunluk giriniz".ToUpper());
             decimal incUzunluk = decimal.Parse(Console.ReadLine());
             decimal cmUzunuluk = 2.54M* incUzunluk;
