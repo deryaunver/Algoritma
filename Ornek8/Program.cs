@@ -10,7 +10,7 @@ namespace Ornek8
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Girilen Bir Sayının Tam Kare OLUP-OLMADIĞINI bulan kod parçası:");
+            Console.WriteLine("Girilen Bir Sayının Tam Kare OLUP-OLMADIĞINI bulan kod parçası: ");
             Console.WriteLine("################################################################");
             Console.WriteLine("Bir sayı girin:");
             int sayi = Convert.ToInt32(Console.ReadLine());
