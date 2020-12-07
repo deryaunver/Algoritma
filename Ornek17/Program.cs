@@ -10,7 +10,7 @@ namespace Ornek17
     {
         static void Main(string[] args)
         {
-            Console.Title = "10-100 arasında ki asal sayıları bulma";
+            Console.Title = " 10-100 arasında ki asal sayıları bulma ";
             //asal sayı 1 ve kendinden başka sayıya bolunmeyecek 2 istisnadır
             for (int i = 10; i <=100; i++)
             {
