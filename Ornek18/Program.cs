@@ -16,7 +16,7 @@ namespace Ornek18
             int max;
             double toplam = 0;
             double toplam2 = 0;
-            Console.WriteLine("rasgele sayılar girin:");
+            Console.WriteLine("rasgele sayılar girin: ");
             for (int i = 0; i < dizi.Length; i++)
             {
                 dizi[i] = Convert.ToInt32(Console.ReadLine());
