@@ -11,7 +11,7 @@ namespace Ornek20
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\tkullanıcının girdiği sayıların toplamını yazan algoritma\n" +
+            Console.WriteLine("\tkullanıcının girdiği sayıların toplamını yazan algoritma \n" +
                               "\talgoritma kullanıcı sıfır girene kadar girdiği sayıları toplasın\n" +
                               "\tve kullanıcı sıfır girdiğinde kullanıcıdan sayı alma işlemini kesip\n" +
                               "\tgirilen sayıların toplkamını ekrana yazdırsın...");
