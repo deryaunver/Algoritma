@@ -11,7 +11,7 @@ namespace Ornek2
         static void Main(string[] args)
         {
             Console.WriteLine("1'den 100'e kadar olan tam sayıların toplamını bulan kod parçası: ");
-            Console.WriteLine("#################################################################");
+            Console.WriteLine("##################################################################");
 
             int sonuc = 0;
             for (int i = 0; i < 100; i++)
