@@ -10,7 +10,7 @@ namespace Ornek16
     {
         static void Main(string[] args)
         {
-            Console.Title = "1-10 arası sayılar çarpımı";
+            Console.Title = " 1-10 arası sayılar çarpımı ";
             int carpım = 1;
             for (int i = 1; i < 11; i++)
             {
