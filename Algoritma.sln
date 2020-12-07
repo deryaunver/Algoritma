@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek27", "Ornek27\Ornek27.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek28", "Ornek28\Ornek28.csproj", "{39564087-2F1D-4A24-B794-6A2A746207CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek29", "Ornek29\Ornek29.csproj", "{FEC6D3B0-30E7-4541-A1F1-B79DBC0870C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{39564087-2F1D-4A24-B794-6A2A746207CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39564087-2F1D-4A24-B794-6A2A746207CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39564087-2F1D-4A24-B794-6A2A746207CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC6D3B0-30E7-4541-A1F1-B79DBC0870C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC6D3B0-30E7-4541-A1F1-B79DBC0870C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC6D3B0-30E7-4541-A1F1-B79DBC0870C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC6D3B0-30E7-4541-A1F1-B79DBC0870C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
