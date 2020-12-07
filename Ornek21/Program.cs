@@ -10,7 +10,7 @@ namespace Ornek21
     {
         static void Main(string[] args)
         {
-            Console.Title = "Dikdörtgen alan çevre hesaplama".ToUpper();
+            Console.Title = " Dikdörtgen alan çevre hesaplama ".ToUpper();
             Console.WriteLine("Kenar 1 in değerinin giriniz:");
             int kenar1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Kenar 2 in değerinin giriniz:");
