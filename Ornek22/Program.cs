@@ -10,7 +10,7 @@ namespace Ornek22
     {
         static void Main(string[] args)
         {
-            Console.Title = "Üçgen alan hesabı";
+            Console.Title = " Üçgen alan hesabı ";
             Console.Write("ÜÇGENİN TABAN UZUNLUĞUNU GİRİNİZ: ");
             int taban = Convert.ToInt32(Console.ReadLine());
             Console.Write("ÜÇGENİN YÜKSEKLİĞİNİ GİRİNİZ: ");
