@@ -10,7 +10,7 @@ namespace Ornek27
     {
         static void Main(string[] args)
         {
-            Console.Title = "Birinci dereceden bir denklemin köklerini bulma";
+            Console.Title = " Birinci dereceden bir denklemin köklerini bulma ";
             Console.WriteLine("1. Katsayıyı gir: ");
             decimal a = Convert.ToDecimal(Console.ReadLine());
             Console.WriteLine("2. Katsayıyı gir: ");
