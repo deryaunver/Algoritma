@@ -10,8 +10,8 @@ namespace Ornek9
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1-100 arası tam sayılardan 2 katının 1 fazlası" +
-                              " 5 ile bölünen kaç sayı olduğunu bulma: ");
+            Console.WriteLine(" 1-100 arası tam sayılardan 2 katının 1 fazlası" +
+                              " 5 ile bölünen kaç sayı olduğunu bulma:");
 
             Console.WriteLine("\t ############ \t");
             
