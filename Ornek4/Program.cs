@@ -10,7 +10,7 @@ namespace Ornek4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Girilen bir tamsayının TEK yada ÇİFT olduğunu bulan kod parçası: ");
+            Console.WriteLine(" Girilen bir tamsayının TEK yada ÇİFT olduğunu bulan kod parçası: ");
             Console.WriteLine("#################################################################");
 
             Console.WriteLine("Bir tamsayı giriniz: ");
