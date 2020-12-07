@@ -10,7 +10,7 @@ namespace Ornek5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1 İLE 100 arasındaki tamsayıların tek ve çift olanlarının ayrı ayrı toplamını bulan kod parçası: ");
+            Console.WriteLine(" 1 İLE 100 arasındaki tamsayıların tek ve çift olanlarının ayrı ayrı toplamını bulan kod parçası: ");
             Console.WriteLine("#################################################################");
 
             int toplamCift = 0;
