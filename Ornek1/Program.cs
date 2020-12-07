@@ -10,7 +10,7 @@ namespace Ornek1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Girilen İki Sayının Toplamını Bulan Kod Parçası");
+            Console.WriteLine("Girilen İki Sayının Toplamını Bulan Kod Parçası ");
             Console.WriteLine("###############################################");
 
             Console.Write("1.Sayıyı Giriniz: ");
