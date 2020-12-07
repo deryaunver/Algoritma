@@ -46,7 +46,7 @@ namespace Ornek12
                     Console.WriteLine("Vücut ısınız 38 , Biraz YÜKSEK ");
                     break;
                 case 39:
-                    Console.WriteLine("Vücut ısınız 39 , YÜKSEK ATEŞ !! DURUM RİSKLİ!! ");
+                    Console.WriteLine("Vücut ısınız 39 , YÜKSEK ATEŞ !!! DURUM RİSKLİ!! ");
                     break;
                 default:
                     Console.WriteLine(" ♣ YANIYORSUN!! ♣");
