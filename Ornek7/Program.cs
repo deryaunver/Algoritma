@@ -10,7 +10,7 @@ namespace Ornek7
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("rasgele girilen 10 sayıdan negatif ve pozitif olanların sayısını bulma :");
+            Console.WriteLine(" rasgele girilen 10 sayıdan negatif ve pozitif olanların sayısını bulma :");
             Console.WriteLine("###################################################################### \n ");
             int negatifSayiAdedi = 0;
             int pozitifSayiAdedi = 0;
