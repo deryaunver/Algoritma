@@ -10,7 +10,7 @@ namespace Ornek6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("3 haneli bir tamsayının birler,onlar ve yuüzler hanesini bulan kod parçası:(Basamak Değeri Bulma) ");
+            Console.WriteLine("3 haneli bir tamsayının birler,onlar ve yuüzler hanesini bulan kod parçası:( Basamak Değeri Bulma ) ");
             Console.WriteLine("#################################################################\n");
 
             Console.WriteLine("3 Haneli bir sayı giriniz: ");
