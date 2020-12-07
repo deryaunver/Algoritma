@@ -10,7 +10,7 @@ namespace Ornek14
     {
         static void Main(string[] args)
         {
-            Console.Title = "SAYI TAHMİN OYUNU :)";
+            Console.Title = "SAYI TAHMİN OYUNU  :)";
             Random random = new Random();
             int bilgisayarSayı = random.Next(1, 10);
             int can = 3;
