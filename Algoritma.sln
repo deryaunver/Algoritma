@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek31", "Ornek31\Ornek31.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek32", "Ornek32\Ornek32.csproj", "{825ED996-99CB-4EC5-AECC-A3500B8A93A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek33", "Ornek33\Ornek33.csproj", "{C94629CD-06D7-4DFD-BC6B-DF46B477B652}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{825ED996-99CB-4EC5-AECC-A3500B8A93A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{825ED996-99CB-4EC5-AECC-A3500B8A93A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{825ED996-99CB-4EC5-AECC-A3500B8A93A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C94629CD-06D7-4DFD-BC6B-DF46B477B652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C94629CD-06D7-4DFD-BC6B-DF46B477B652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C94629CD-06D7-4DFD-BC6B-DF46B477B652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C94629CD-06D7-4DFD-BC6B-DF46B477B652}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
