@@ -14,7 +14,7 @@ namespace Ornek32
             Console.Title = "DÖRDERLİ GERİYE SAYDIRMA";
             Console.WriteLine("Başlangıç sayısını giriniz: ");
             long baslangic = Convert.ToInt64(Console.ReadLine());
-            Console.WriteLine("Başlangıç sayısını giriniz: ");
+            Console.WriteLine("Bitis sayısını giriniz: ");
             long bitis = Convert.ToInt64(Console.ReadLine());
             Console.Write($"{bitis} - {baslangic} geriye saydırma: ");
             Console.WriteLine();
