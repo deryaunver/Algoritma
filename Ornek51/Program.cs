@@ -11,7 +11,7 @@ namespace Ornek51
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Bir kelime girin :");
+            Console.WriteLine("Bir kelime girin :");  
             string kelime = Console.ReadLine();
             string kelimeDegisen="";
             int i = 0;
