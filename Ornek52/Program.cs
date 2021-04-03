@@ -12,7 +12,7 @@ namespace Ornek52
         {
             // a b c d -->d c b a
             Console.Title = "Recursif";
-            bool durum = true;
+            bool durum = true;   
             while (durum)
             {
                 Console.Write("Sayi gir:");
