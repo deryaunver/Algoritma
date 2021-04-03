@@ -13,7 +13,7 @@ namespace Ornek53
             Console.Title = "Yer değiştirme algoritması";
             string[] dizi = {"a", "b", "c", "d"};
 
-
+               
             #region Yontem1
             //for (int i = dizi.Length-1; i>=0; i--)
             //{
