@@ -12,6 +12,9 @@ namespace Ornek50
         {
             Console.WriteLine("Metin giriniz:");
             string metin = Console.ReadLine();
+            //d
+            //de
+            //der şeklinde yazdırma
 
             for (int i = 0; i <=metin.Length; i++)
             {
