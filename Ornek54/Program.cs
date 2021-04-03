@@ -20,7 +20,7 @@ namespace Ornek54
             {
                 if (sayi%i==0)
                 {
-                    toplam = toplam + i;
+                    toplam = toplam + i;  
                 }
 
             }
