@@ -10,7 +10,7 @@ namespace Ornek60
     {
         static void Main(string[] args)
         {
-            Console.Title = "Binary search";
+            Console.Title = "Binary search ";
             int[] dizi = {2, 4, 6, 8, 10, 12};
             Console.WriteLine(BinarySearchIterative(dizi, 8));
             var sonuc = BinarySearchIterative(dizi, 8);
