@@ -10,7 +10,7 @@ namespace Ornek59
     {
         static void Main(string[] args)
         {
-            Console.Title = "Doğrusal Arama";
+            Console.Title = "Doğrusal Arama ";
             //aranan=2;
             int[] dizi = {1, 2, 3, 4, 5};
            int aranan = 4;
