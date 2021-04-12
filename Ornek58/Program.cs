@@ -11,14 +11,15 @@ namespace Ornek58
         static void Main(string[] args)
         {
             Console.Title = "Dizi elemanlarını tersten yazdırma";
-            int[] dizi = {1, 2, 3, 4, 5};
+            int[] dizi = {2, 4, 6, 8, 10};
             int hedef = 0;
             int gecici = 0;
-            for (int i = 0; i <=Convert.ToDouble(dizi.Length/2)-1; i++)
+            double sonuc = Convert.ToDouble(dizi.Length / 2) - 1;
+            for (int i = 0; i <=sonuc; i++)
             {
-                gecici = dizi[dizi.Length - 1]-i;
-                dizi[dizi.Length - 1 - i] = dizi[i];
-                dizi[i] = gecici;
+                gecici = dizi[dizi.Length - 1-i];//10
+                dizi[dizi.Length - 1 - i] = dizi[i];//10-->2
+                dizi[i] = gecici;//2-->10
             }
 
             for (int i = 0; i <=dizi.Length-1; i++)
