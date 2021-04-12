@@ -10,7 +10,7 @@ namespace Ornek58
     {
         static void Main(string[] args)
         {
-            Console.Title = "Dizi elemanlarını tersten yazdırma";
+            Console.Title = "Dizi elemanlarını tersten yazdırma ";
             int[] dizi = {2, 4, 6, 8, 10};
             int hedef = 0;
             int gecici = 0;
