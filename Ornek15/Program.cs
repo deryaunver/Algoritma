@@ -19,6 +19,7 @@ namespace Ornek15
                  sayiTahmin = int.Parse(Console.ReadLine());
                 if (sayiTahmin == sayi)
                 {
+                    
                     Console.WriteLine($"Buldunuz: {sayi} ");
                 }
                 else if (sayiTahmin < sayi)

@@ -9,39 +9,44 @@ namespace Ornek63
 {
     class Program
     {
-        static void Main(string[] args)
+        //static void Main(string[] args)
+        //{
+
+        //    string[] dizi = {"elma", "armut", "portakal", "kizi"};
+        //    int i = dizi.Length;
+        //    while (i>0)
+        //    {
+        //        Console.WriteLine(dizi[--i]);
+        //    }
+        //    Console.ReadKey();
+
+        //}
+        public static string StringChallenge(string str)
         {
-            #region Açıklama-stack
-            //Push = ekleme
-            //Pop =en üstteki değeri okur ve bir değişkene atar.ve silinir
-            //peek=dizinin en üstündeki elemanı öğrenmesilme yapmaz
-            //substring > belli aralıkları alma(metinin i sinden başla 1 tane al(i,1))
-            #endregion
-            Console.Title = "Klavyeden girilen elamnları tersten yazdırma(Stack-Yığın İle)";
 
-      
-            Stack harfler = new Stack();
-            string harf = "";
-            int hedef = 0;
-            Console.WriteLine("Bir metin girin:");
-            string metin = Console.ReadLine();
-
-          
-      
-            for (int i = 0; i < metin.Length; i++)
+            string tersKelime = "";
+            for (int i = str.Length - 1; i >= 0; i--)
             {
-                harf = metin.Substring(i,1);
-                harfler.Push(harf);
+                tersKelime += str[i];
             }
-
-            hedef = harfler.Count;
-            for (int i = 0; i <hedef; i++)
+            if (str == tersKelime)
             {
-                Console.WriteLine(harfler.Pop());
+                Console.WriteLine("Palindromdur");
             }
-
-            Console.ReadKey();
+            else
+            {
+                Console.WriteLine("Palindrom değildir");
+            }
+            return str;
 
         }
+
+        static void Main()
+        {
+            Console.WriteLine("Bir kelime giriniz:");
+            Console.WriteLine(StringChallenge(Console.ReadLine()));
+            Console.ReadKey();
+        }
+        
     }
 }

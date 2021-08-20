@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,22 +11,39 @@ namespace Ornek1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Girilen İki Sayının Toplamını Bulan Kod Parçası ");
-            Console.WriteLine("###############################################");
+            int n = Convert.ToInt32(Console.ReadLine().Trim());
 
-            Console.Write("1.Sayıyı Giriniz: ");
-            int sayi1 = Convert.ToInt32(Console.ReadLine());
+            List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
 
-            Console.Write("2.Sayıyı Giriniz: ");
-            int sayi2 = Convert.ToInt32(Console.ReadLine());
-
-            int sonuc;
-            sonuc = sayi1 + sayi2;
-            Console.WriteLine($"Sonuc:{sonuc}");
-
-            Console.ReadKey();
-
+            Program.plusMinus(arr);
 
         }
+        public static void plusMinus(List<int> arr)
+        {
+
+            int kacTanePozitif = 0;
+            int kacTaneNegatif = 0;
+            int kacTaneIsaretsiz = 0;
+            for (int i = 0; i < arr.Count; i++)
+            {
+                if (arr[i] > 0)//pozitif
+                {
+                    kacTanePozitif++;
+                }
+                else if (arr[i] < 0)//negatif
+                {
+                    kacTaneNegatif++;
+                }
+                else// işaretsiz
+                {
+                    kacTaneIsaretsiz++;
+                }
+            }
+
+            double hesaplaPozitifOran = kacTanePozitif / arr.Count;
+            double hesaplaNegatifOran = kacTaneNegatif / arr.Count;
+            double hesaplaIsatsizOran = kacTaneIsaretsiz / arr.Count;
+        }
+
     }
 }
