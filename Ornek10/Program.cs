@@ -18,7 +18,7 @@ namespace Ornek10
 
             Console.Title = "\t ÖLÜMCÜL LABİRENT \t";
             Console.WriteLine("\t ♣♣♣ÖLÜMCÜL LABİRENT OYUNU♣♣♣ \t\n----------------------------------------------------------------");
-            Console.WriteLine("Oyuna Başlamak İçin Bilgilerinizi Eksiksiz Olarak  Giriniz:\n");
+            Console.WriteLine("Oyuna Başlamak İçin Bilgilerinizi Eksiksiz Olarak  Giriniz   :\n");
             Console.Write("Adınız--->\t");
             string ad = Console.ReadLine();
             Console.Write("Soyadınız--->\t");
